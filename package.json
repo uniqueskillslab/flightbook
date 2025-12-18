@@ -1,0 +1,12 @@
+{
+  "name": "airway-flightbook",
+  "version": "1.0.0",
+  "description": "Delta Airlines Reservation Desk - Professional airline booking website",
+  "scripts": {
+    "build": "echo 'No build process required for static site'",
+    "start": "echo 'Static HTML site - open index.html'"
+  },
+  "keywords": ["airline", "reservation", "booking", "delta", "flights"],
+  "author": "Airway Flight Booking",
+  "license": "MIT"
+}

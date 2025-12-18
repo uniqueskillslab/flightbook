@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="600" viewBox="0 0 1440 600">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#B0E0E6;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#F0F8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E6F3FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D3D3D3;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C0C0C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A9A9A9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1440" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="200" cy="150" rx="80" ry="30" fill="white" opacity="0.7"/>
+  <ellipse cx="600" cy="100" rx="60" ry="25" fill="white" opacity="0.6"/>
+  <ellipse cx="1000" cy="180" rx="90" ry="35" fill="white" opacity="0.5"/>
+  <ellipse cx="1300" cy="120" rx="70" ry="28" fill="white" opacity="0.6"/>
+  
+  <!-- Main airplane wing -->
+  <path d="M0 350 Q300 280 600 300 Q900 320 1200 340 Q1350 350 1440 360 L1440 600 L0 600 Z" fill="url(#wingGradient)" stroke="#999" stroke-width="2"/>
+  
+  <!-- Wing details and panels -->
+  <path d="M100 380 Q400 320 700 340 Q1000 360 1300 380" fill="none" stroke="#888" stroke-width="1.5"/>
+  <path d="M150 400 Q450 350 750 370 Q1050 390 1350 410" fill="none" stroke="#888" stroke-width="1"/>
+  
+  <!-- Wing rivets -->
+  <circle cx="200" cy="370" r="2" fill="#777"/>
+  <circle cx="250" cy="365" r="2" fill="#777"/>
+  <circle cx="300" cy="360" r="2" fill="#777"/>
+  <circle cx="400" cy="355" r="2" fill="#777"/>
+  <circle cx="500" cy="365" r="2" fill="#777"/>
+  <circle cx="600" cy="370" r="2" fill="#777"/>
+  <circle cx="700" cy="375" r="2" fill="#777"/>
+  <circle cx="800" cy="380" r="2" fill="#777"/>
+  <circle cx="900" cy="385" r="2" fill="#777"/>
+  <circle cx="1000" cy="390" r="2" fill="#777"/>
+  
+  <!-- Wing panels -->
+  <rect x="150" y="350" width="80" height="40" fill="none" stroke="#999" stroke-width="1" opacity="0.7"/>
+  <rect x="280" y="345" width="90" height="45" fill="none" stroke="#999" stroke-width="1" opacity="0.7"/>
+  <rect x="420" y="348" width="85" height="42" fill="none" stroke="#999" stroke-width="1" opacity="0.7"/>
+  <rect x="560" y="355" width="95" height="50" fill="none" stroke="#999" stroke-width="1" opacity="0.7"/>
+  <rect x="720" y="360" width="88" height="48" fill="none" stroke="#999" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Wing tip -->
+  <path d="M1200 340 Q1350 350 1440 360 Q1420 380 1380 390 Q1250 385 1200 380 Z" fill="#B8B8B8" stroke="#999" stroke-width="1"/>
+  
+  <!-- Wing flaps -->
+  <path d="M900 320 Q1100 330 1200 340 L1200 360 Q1100 350 900 340 Z" fill="#A0A0A0" opacity="0.8"/>
+  
+  <!-- Wing engine nacelle -->
+  <ellipse cx="800" cy="320" rx="40" ry="15" fill="#909090"/>
+  <ellipse cx="800" cy="318" rx="35" ry="12" fill="#A5A5A5"/>
+  
+  <!-- Additional wing details -->
+  <path d="M50 400 Q200 380 350 385 Q500 390 650 395 Q800 400 950 405 Q1100 410 1250 415 Q1350 418 1440 420" fill="none" stroke="#AAA" stroke-width="1" opacity="0.6"/>
+</svg>
